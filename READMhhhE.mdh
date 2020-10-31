@@ -1,1 +1,0 @@
-# arturkuznetsov.github.io
