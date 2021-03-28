@@ -10,13 +10,15 @@
 <body>
 <div id="myElement">Загрузка плеера...</div>
  
-<script type="text/javascript">
-    jwplayer("myElement").setup({
-        file: "/test.flv",
-        image: "https://www.hse.ru/data/2019/04/24/1182248603/3iStock-940583584.jpg",
-                width: 400,
-                height: 240,
-                title: "Мой мегаклип"
+<script type='text/javascript'>
+  jwplayer('mediaspace').setup({
+    'flashplayer': '/player.swf',
+    'file': '/MyClips.flv',
+    'controlbar': 'bottom',
+    'width': '360',
+    'height': '240'
+  });
+</script>
     });
 </script>
 </body>
