@@ -1,0 +1,23 @@
+  
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Артур.Архив</title>
+	<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+  <link rel="shortcut icon" href="https://archive.artur.ga/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<div id="myElement">Загрузка плеера...</div>
+ 
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        file: "https://r4---sn-vgqsrnlk.googlevideo.com/videoplayback?expire=1616976018&ei=MsRgYKfRGM2VgAeTzbOYDg&ip=45.153.33.166&id=o-AHyWuJxg0vK2pJ7h0YmwY2kPmwa6HHGi6PIdahJmSipa&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=6VEiuX_ZaVq-gbw7MoO4hhQF&gir=yes&clen=18133630&ratebypass=yes&dur=267.749&lmt=1612732729155760&fvip=4&fexp=24001373,24007246&c=WEB&txp=5430434&n=0b6rinUlF_Fm2r5SwjDUL&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAMw8h6kwTmlu3ED-gw6h7ZvGkQT9628U6lz1YQU893H-AiBlIsk88jiFeTM47VQCkj_8cryyTMjqfnrmLYVNHTbklQ%3D%3D&redirect_counter=1&rm=sn-5hneld7z&req_id=641cdb0d0cf4a3ee&cms_redirect=yes&ipbypass=yes&mh=Pe&mip=2.92.198.211&mm=31&mn=sn-vgqsrnlk&ms=au&mt=1616954027&mv=D&mvi=4&pl=0&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAJqFttaVsvWXtwmbq2hezcZVinOABVOgbPQkOIG8iTl3AiEAoOvL86YMrTsluFaF3iGAci1kAR30jv34UAad30n9ckc%3D",
+        image: "https://www.hse.ru/data/2019/04/24/1182248603/3iStock-940583584.jpg",
+                width: 400,
+                height: 240,
+                title: "Мой мегаклип"
+    });
+</script>
+</body>
+</html>
