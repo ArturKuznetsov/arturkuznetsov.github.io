@@ -1,0 +1,6 @@
+<script src="https://artur-online.ru/wp-content/uploads/2021/02/player.js" type="text/javascript">
+
+<div id="player"></div>
+<script>
+   var player = new ArturPlayer({id:"player", file:"//arturkuz-57664.portmap.host:57664/dav/video/ifo.mp4"});
+</script>
